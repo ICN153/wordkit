@@ -4,8 +4,29 @@
   font-family: "Fraunces", serif;
 }
 
-.section img {
-  width: 1366px;
-  height: 630px;
-  background-size: cover;
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.section h3 {
+  font-size: 15px;
+  margin-left: 100px;
+}
+.section p {
+  font-size: 15px;
+  text-decoration: underline;
+  margin-right: 100px;
+}
+
+.titulo-principal h1 {
+  display: flex;
+  justify-content: center;
+}
+.titulo-principal img {
+  display: block;
+  margin: 0px auto;
+  width: 702px;
+  padding: 174px;
+  z-index: 10;
 }/*# sourceMappingURL=style.css.map */
