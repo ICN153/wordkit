@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces", serif;
+}
+
+.section img {
+  width: 1366px;
+  height: 630px;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
