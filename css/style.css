@@ -20,15 +20,21 @@ body .section {
   padding: 50px;
 }
 body .section h3 {
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 100px;
   color: #ffffff;
 }
 body .section p {
-  font-size: 15px;
-  text-decoration: underline;
+  font-size: 20px;
+  border-bottom: 2px solid #44ffa1;
+  padding: 3px;
   margin-right: 100px;
   color: #ffffff;
+}
+body .corDeFundo {
+  background-color: rgb(28, 2, 28);
+  text-align: center;
+  padding: 6px;
 }
 body .titulo-principal h1 {
   display: flex;
@@ -41,7 +47,7 @@ body .titulo-principal img {
   display: block;
   margin: 0px auto;
   width: 702px;
-  height: 405px;
+  height: 360px;
   padding: 180px;
   z-index: 10;
 }/*# sourceMappingURL=style.css.map */

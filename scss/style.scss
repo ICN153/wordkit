@@ -1,4 +1,6 @@
 $white: #ffffff;
+$Davi: #584d62;
+$Grennclip: #44ffa1;
 
 * {
   margin: 0;
@@ -23,17 +25,24 @@ body {
     padding: 50px;
 
     h3 {
-      font-size: 15px;
+      font-size: 20px;
       margin-left: 100px;
       color: $white;
     }
 
     p {
-      font-size: 15px;
-      text-decoration: underline;
+      font-size: 20px;
+      border-bottom: 2px solid $Grennclip;
+      padding: 3px;
       margin-right: 100px;
       color: $white;
     }
+  }
+
+  .corDeFundo {
+    background-color: rgb(28, 2, 28);
+    text-align: center;
+    padding: 6px;
   }
 
   .titulo-principal {
@@ -49,7 +58,7 @@ body {
       display: block;
       margin: 0px auto;
       width: 702px;
-      height: 405px;
+      height: 360px;
       padding: 180px;
       z-index: 10;
     }
