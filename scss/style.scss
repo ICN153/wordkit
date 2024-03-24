@@ -1,6 +1,8 @@
 $white: #ffffff;
 $Davi: #584d62;
 $Grennclip: #44ffa1;
+$dark: #24053e;
+$stroke: #979797;
 
 * {
   margin: 0;
@@ -9,7 +11,7 @@ $Grennclip: #44ffa1;
 }
 
 body {
-  background-color: #FCF8FF;
+  background-color: #fcf8ff;
 }
 
 .container {
@@ -19,17 +21,16 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   align-items: center;
   padding: 56px 0;
 
   a {
     color: #ffffff;
-    
+    text-decoration: none;
+    border-bottom: 2px solid $Grennclip;
+    padding: 2px;
   }
-
-  
-
 }
 
 .hero {
@@ -41,28 +42,82 @@ body {
 
   .titulo-principal {
     text-align: center;
+
     h1 {
-      
       font-size: 80px;
       line-height: 100%;
       color: $white;
     }
 
-    button{
-      background-color: #44ffa1;
-      padding: 16px 32px;
-      margin: 37px;
-      
+    span {
+      border-bottom: 2px solid $Grennclip;
     }
 
+    button {
+      background-color: #44ffa1;
+      padding: 16px 32px;
+      margin: 38px;
+      text-decoration: none;
+
+      a {
+        text-decoration: none;
+      }
+    }
 
     img {
+      width: 767px;
+      height: 441px;
       display: block;
       margin: 0px auto;
-      width: 702px;
-      height: 360px;
-      padding: 180px;
+      position: relative;
+      padding: 50px;
       z-index: 10;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 24px;
+
+  .menu-1 {
+    width: 1114px;
+    height: 308px;
+    width: 295px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      color: #24053e;
+      border: 1px solid $Davi;
+      border-radius: 36px;
+      font-size: 24px;
+      width: 46px;
+      height: 46px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 56px;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-family: "Fraunces", serif;
+      margin: 28px;
+      color: #24053e;
+    }
+
+    p {
+      color: $dark;
     }
   }
 }
