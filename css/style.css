@@ -103,4 +103,11 @@ body {
 }
 .container .menu-1 p {
   color: #24053e;
+}
+
+.footer-hero .container {
+  width: 1112px;
+}
+.footer-hero .container img {
+  width: 430px;
 }/*# sourceMappingURL=style.css.map */
