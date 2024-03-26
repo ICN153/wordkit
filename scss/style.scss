@@ -122,14 +122,21 @@ body {
   }
 }
 
-.footer-hero .container {
-  width: 1112px;
+.footer-hero .container {   
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+   
 
-  img {
-    width: 430px;
+  .cara{
+    // position: relative;  
+    // left: 40px;
   }
-
-  .img-fundo {
-    
+  
+  .img-fundo{
+    position: absolute;
+    top: 173px;
+    left: 375px;
+    z-index: 20;
   }
 }
