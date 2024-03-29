@@ -58,6 +58,7 @@ body {
       padding: 16px 32px;
       margin: 38px;
       text-decoration: none;
+      cursor: pointer;
 
       a {
         text-decoration: none;
@@ -132,41 +133,48 @@ body {
     // left: 40px;
   }
 
-  .img-fundo {
-    position: absolute;
-    top: 173px;
-    left: 375px;
-    z-index: 20;
-  }
-
   .content {
-    width: 730px;
     box-sizing: border-box;
-    position: absolute;      
+    position: absolute;
     padding: 64px;
     background-image: url(../img/fundo.png);
-    
-    
-    h2{
+    left: 372px;
+    top: 177px;
+
+    h2 {
       font-size: 36px;
       color: $white;
       font-weight: normal;
     }
 
-    p{
+    p {
       margin: 32px 0;
       color: $white;
-      
+      font-family: "Manrope", sans-serif;
     }
 
     button {
       background-color: #44ffa1;
       padding: 16px 32px;
       text-decoration: none;
-      
+      cursor: pointer;
     }
+  }
+}
 
+.redes-sociais .container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  top: 240px;
+
+  img {
+    margin: 5px;
+    cursor: pointer;
   }
 
-  
+  .logo {
+    padding: 15px;
+    color: #24053e;
+  }
 }
