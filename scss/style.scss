@@ -179,14 +179,26 @@ body {
   }
 }
 
-@media (max-width: 600px) {
-  .hero .container {
-    padding: 32px;
-    display: flex;
-    row-gap: 32px;
-  }
+@media (max-width:768px) {
 
-  .titulo-principal h1 {
-    font-size: 32px;
-  }
+  
+.header{
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: normal;
+  max-width: 85%;
+  }  
+
+.titulo-principal{
+  position: relative;
+  padding: 56px;
 }
+
+.titulo-principal img{
+  max-width: 100%;
+  height: auto;
+
+}
+}
+
