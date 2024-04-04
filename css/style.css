@@ -149,4 +149,15 @@ body {
 .redes-sociais .container .logo {
   padding: 15px;
   color: #24053e;
+}
+
+@media (max-width: 600px) {
+  .hero .container {
+    padding: 32px;
+    display: flex;
+    row-gap: 32px;
+  }
+  .titulo-principal h1 {
+    font-size: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */
