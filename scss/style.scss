@@ -136,6 +136,7 @@ body {
   }
 
   .content {
+    width: 730px;
     box-sizing: border-box;
     position: absolute;
     padding: 64px;
@@ -151,6 +152,9 @@ body {
 
     p {
       margin: 32px 0;
+      line-height: 24px;
+      text-align: left;
+      font-size: 14px;
       color: $white;
       font-family: "Manrope", sans-serif;
     }
@@ -168,7 +172,7 @@ body {
   display: block;
   justify-content: center;
   text-align: center;
-  top: 240px;
+  padding: 80px;
 
   img {
     margin: 5px;
@@ -181,31 +185,75 @@ body {
   }
 }
 
-
-@media (max-width:768px) {
-
-
+@media (max-width: 768px) {
   .header {
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
     white-space: normal;
     max-width: 85%;
-
   }
 
   .titulo-principal {
     position: relative;
     padding: 56px;
-  }
 
-  .titulo-principal img {
-    max-width: 100%;
-    height: auto;
-  }
+    .content h1 {
+      font-family: fraunces;
+      font-size: 50px;
+    }
 
-  .cards{
+    .content button {
+      margin: 80px;
+      padding: 10px 25px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+
+    .content img {
+      max-width: 100%;
+      height: auto;
+      position: relative;
+      margin-top: 50px;
+      padding: 36px 20px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
     flex-direction: column;
+  }
 
+  .menu-1 {
+    padding: 16px;
+  }
+
+  .menu-1 span {
+  }
+
+  .menu-1 h3 {
+    padding: 16px;
+  }
+
+  .menu-1 {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 532px) {
+  .footer-hero {
+    padding: 47px;
+  }
+
+  .cara {
+    width: 486px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    background-image: url(../img/fundo.png);
   }
 }
