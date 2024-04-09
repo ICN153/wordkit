@@ -184,15 +184,10 @@ body {
     padding: 36px 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 532px) {
   .cards {
     flex-direction: column;
-  }
-  .menu-1 p {
-    padding: 16px;
-  }
-  .menu-1 h3 {
-    padding: 16px;
+    padding: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -201,6 +196,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url();
+    padding: 47px;
+  }
+  .cara {
+    max-width: 100%;
+    height: auto;
+  }
+  .content {
+    max-width: 100%;
+    height: auto;
   }
 }/*# sourceMappingURL=style.css.map */
