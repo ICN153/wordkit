@@ -71,7 +71,7 @@ body {
       display: block;
       margin: 0px auto;
       padding: 72px;
-      
+
     }
   }
 }
@@ -86,7 +86,7 @@ body {
   justify-content: center;
   position: relative;
   gap: 24px;
- 
+
 
   .menu-1 {
     max-width: 1114px;
@@ -97,7 +97,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 
     span {
       color: #24053e;
@@ -127,69 +127,85 @@ body {
   }
 }
 
-.footer-hero .container {
-  display: flex;
-  justify-content: flex-start;
-  position: relative;
-  box-sizing: border-box;
+.footer-hero {
 
-  .cara {
-    // position: relative;
-    // left: 40px;
-  }
+  //background-color: red;
+  padding-bottom: 60px;
 
-  .content {
-    width: 730px;
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
     box-sizing: border-box;
-    position: absolute;
-    padding: 64px;
-    background-image: url(../img/fundo.png);
-    left: 372px;
-    top: 177px;
 
-    h2 {
-      font-size: 36px;
-      color: $white;
-      font-weight: normal;
+
+    .content {
+      max-width: 730px;
+      min-height: 474px;
+      display: flex;
+      box-sizing: border-box;
+      position: absolute;
+      padding: 65px;
+      background-image: url(../img/fundo.png);
+      left: 372px;
+      top: 177px;
+
+      
+
+      h2 {
+        font-size: 36px;
+        color: $white;
+        font-weight: normal;
+        margin-top: 0;
+      }
+
+      p {
+        margin: 32px 0;
+        line-height: 32px;
+        text-align: left;
+        font-size: 18px;
+        color: $white;
+        font-family: "Manrope", sans-serif;
+      }
+
+      button {
+        background-color: #44ffa1;
+        padding: 16px 32px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 18px;
+      }
     }
 
-    p {
-      margin: 32px 0;
-      line-height: 24px;
-      text-align: left;
-      font-size: 14px;
-      color: $white;
-      font-family: "Manrope", sans-serif;
-    }
+  }
+}
 
-    button {
-      background-color: #44ffa1;
-      padding: 16px 32px;
-      text-decoration: none;
+.redes-sociais {
+
+  margin-top: 120px;
+    
+  .container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    //padding: 100px;
+
+    img {
+      //margin: 10px;
       cursor: pointer;
     }
+
+    .logo {
+
+      color: #24053e;
+    }
   }
 }
 
-.redes-sociais .container {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  padding: 100px;
 
-  img {
-    margin: 10px;
-    cursor: pointer;
-  }
+@media (max-width: 920px) {
 
-  .logo {
-    
-    color: #24053e;
-  }
-}
-
-@media (max-width: 768px) {
   .header {
     padding: 40px;
     display: flex;
@@ -198,61 +214,82 @@ body {
     max-width: 85%;
   }
 
-  .titulo-principal {
-    position: relative;
-    padding: 56px;
-
-    .content h1 {
-      font-family: fraunces;
-      font-size: 40px;
-    }
-
-    .content button {
-      margin: 87px;
-      padding: 10px 14px;
-      font-size: 16px;
-      line-height: 32px;
-    }
-
-    .content img {
-      max-width: 100%;
-      height: auto;
-      position: relative;
-      margin-top: 130px;
-      padding: 36px 20px;
-    }
-  }
-}
-
-@media (max-width: 532px) {
   .cards {
     flex-direction: column;
     padding: 24px;
   }
 
+  .titulo-principal {
+    position: relative;
+    padding: 56px;
+
+    .content {
+
+      h1 {
+        font-family: fraunces;
+        font-size: 40px;
+      }
+
+      button {
+        margin: 87px;
+        padding: 10px 14px;
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 15%;
+        padding: 36px 20px;
+      }
+
+    }
+  }
+
+  .footer-hero {
+
+    .container {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 16px;
+      padding-right: 16px;
+
+      .cara {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .content {
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: #24053e;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: -50px;
+       
+      }
+
+    }
+
+
+
+  }
+
+  .redes-sociais {
+    margin-top: 30px;
+  }
 
 }
 
-@media (max-width: 768px){
-.footer-hero .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 47px;
-}
-
-.cara{
-  max-width: 100%;
-  height: auto;
-
-}
-.content{
-  max-width: 100%;
-  height: auto;
+@media (max-width: 532px) {
   
 
- 
-}
 
 }
