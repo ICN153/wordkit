@@ -155,11 +155,15 @@ body {
   text-align: center;
   position: relative;
 }
-.redes-sociais .container img {
-  cursor: pointer;
-}
 .redes-sociais .container .logo {
   color: #24053e;
+}
+.redes-sociais .container .redes {
+  padding: 37px;
+}
+.redes-sociais .container .redes img {
+  margin: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 920px) {
@@ -189,11 +193,11 @@ body {
     line-height: 32px;
   }
   .titulo-principal .content img {
-    max-width: 100%;
+    max-width: 135%;
     height: auto;
     position: relative;
-    margin-top: 15%;
-    padding: 36px 20px;
+    right: 117px;
+    bottom: -30px;
   }
   .footer-hero .container {
     display: flex;

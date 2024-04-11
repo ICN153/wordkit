@@ -191,14 +191,17 @@ body {
     position: relative;
     //padding: 100px;
 
-    img {
-      //margin: 10px;
-      cursor: pointer;
-    }
-
     .logo {
 
       color: #24053e;
+    }
+    .redes{
+      padding: 37px;
+      
+      img {
+        margin: 10px;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -238,11 +241,11 @@ body {
       }
 
       img {
-        max-width: 100%;
+        max-width: 135%;
         height: auto;
         position: relative;
-        margin-top: 15%;
-        padding: 36px 20px;
+        right: 117px;
+        bottom: -30px;
       }
 
     }
@@ -278,8 +281,6 @@ body {
 
     }
 
-
-
   }
 
   .redes-sociais {
@@ -290,6 +291,4 @@ body {
 
 @media (max-width: 532px) {
   
-
-
 }
