@@ -181,6 +181,7 @@ body {
   .titulo-principal {
     position: relative;
     padding: 56px;
+    overflow: hidden;
   }
   .titulo-principal .content h1 {
     font-family: fraunces;
@@ -196,8 +197,8 @@ body {
     max-width: 135%;
     height: auto;
     position: relative;
-    right: 117px;
-    bottom: -30px;
+    right: 114px;
+    bottom: -15px;
   }
   .footer-hero .container {
     display: flex;

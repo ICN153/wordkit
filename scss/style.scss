@@ -12,6 +12,7 @@ $stroke: #979797;
 
 body {
   background-color: #fcf8ff;
+  
 }
 
 .container {
@@ -225,6 +226,7 @@ body {
   .titulo-principal {
     position: relative;
     padding: 56px;
+    overflow: hidden;
 
     .content {
 
@@ -244,8 +246,8 @@ body {
         max-width: 135%;
         height: auto;
         position: relative;
-        right: 117px;
-        bottom: -30px;
+        right: 114px;
+        bottom: -15px;
       }
 
     }
